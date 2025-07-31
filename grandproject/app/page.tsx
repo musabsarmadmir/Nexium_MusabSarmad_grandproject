@@ -150,7 +150,7 @@ export default function LandingPage() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 Socho. Made with ❤️ for Pakistani mental health.</p>
+            <p>&copy; 2025 Socho. Made with ❤️ for Pakistani mental health.</p>
           </div>
         </div>
       </footer>
