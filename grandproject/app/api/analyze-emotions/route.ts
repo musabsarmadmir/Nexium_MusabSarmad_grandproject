@@ -1,4 +1,5 @@
 import { generateText } from "ai"
+import { groq } from "@ai-sdk/groq"
 import { detectEmotionsFromText } from "@/lib/emotion-analysis"
 
 export async function POST(req: Request) {
@@ -10,7 +11,7 @@ export async function POST(req: Request) {
 
     try {
       const { text: aiResponse } = await generateText({
-        model: "llama-3.1-8b-instant",
+        model: groq("llama-3.1-8b-instant"),
         prompt: `Analyze the emotional content of this text and return only a JSON array of emotions detected. Use these emotion categories: happy, sad, angry, anxious, grateful, peaceful, confused, hopeful, frustrated, excited, lonely, content, overwhelmed, proud, disappointed.
 
 Text to analyze: "${text}"
