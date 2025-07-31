@@ -101,7 +101,7 @@ Socho is a comprehensive mental health tracking application that combines journa
 - **Toast** - Notification system
 
 ### Deployment & Infrastructure
-- **[AWS EC2](https://aws.amazon.com/ec2/)** - Cloud compute instances
+- **[Vercel](https://vercel.com/)** - Cloud compute instances
 - **[Nginx](https://nginx.org)** - Reverse proxy and load balancer
 - **[PM2](https://pm2.keymetrics.io)** - Process manager for Node.js
 - **[Let's Encrypt](https://letsencrypt.org)** - Free SSL certificates
@@ -117,7 +117,7 @@ Socho is a comprehensive mental health tracking application that combines journa
          │                       │                       │
          ▼                       ▼                       ▼
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Groq AI API   │    │   n8n Workflows │    │  AWS EC2 Host   │
+│   Groq AI API   │    │   n8n Workflows │    │  Vercel Host    │
 │  (AI Chat Bot)  │    │  (Automation)   │    │  (Production)   │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
