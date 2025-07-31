@@ -170,7 +170,7 @@ Create a `.env.local` file in the project root:
 ```env
 # MongoDB Configuration
 MONGODB_URI=mongodb://localhost:27017/socho
-# or MongoDB Atlas: mongodb+srv://YOUR_USERNAME:YOUR_PASSWORD@YOUR_CLUSTER.mongodb.net/socho
+# For MongoDB Atlas, use: mongodb+srv://<username>:<password>@<cluster>.mongodb.net/socho
 
 # Supabase Configuration
 NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
